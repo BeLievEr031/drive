@@ -1,0 +1,6 @@
+.folder_container {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

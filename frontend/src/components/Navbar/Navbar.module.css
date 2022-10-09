@@ -1,0 +1,30 @@
+.navContainer {
+  background-color: lightblue;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.icn_font {
+  font-size: 50px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.icn_cont {
+  margin: 0 20px;
+  padding: 0 5px;
+}
+
+.logout {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 70px;
+  font-size: 20px;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}

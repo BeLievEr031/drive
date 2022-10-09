@@ -1,0 +1,4 @@
+{
+  "link": "https://stackoverflow.com/questions/22008822/how-to-get-the-size-of-single-document-in-mongodb",
+  "func": "Object.bsonsize(db.db_name.find({}))"
+}

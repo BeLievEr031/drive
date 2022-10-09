@@ -1,0 +1,34 @@
+.container {
+  width: 250px;
+  height: 250px;
+  border: 2px solid balck;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.img_cont {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.action {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+}
+
+.action span {
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: 30px;
+  cursor: pointer;
+}

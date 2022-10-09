@@ -1,0 +1,48 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth {
+  width: 30%;
+  border: 2px solid black;
+  padding: 10px;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.auth input {
+  width: 80%;
+  padding: 5px;
+  font-size: 18px;
+  position: relative;
+}
+
+.btn {
+  font-size: 20px;
+  width: 30%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.login {
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;  
+}
+
+@media screen and (max-width: 800px) {
+  .auth {
+    width: 60%;
+  }
+
+  .btn {
+    width: 50%;
+  }
+}
